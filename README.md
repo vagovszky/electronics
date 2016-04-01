@@ -27,3 +27,6 @@ Set of eagle libraries
 
 ## Logic_Level_Bidirectional
 Logic level convertor between 3.3V and 5V
+
+## ESP8266_Thermometer
+Wifi weather station with ESP8266
