@@ -1,0 +1,36 @@
+Partlist exported from C:/Users/E351649/Documents/eagle/electronics/Battery_Charger/battery_charger.sch at 5/23/2016 10:11 AM
+
+Part     Value        Device            Package      Description                       MF MPN OC_FARNELL OC_NEWARK TP_SIGNAL_NAME
+B        +            AK500/2           AK500/2      CONNECTOR                                unknown    unknown                 
+C1       10n          C-US050-025X075   C050-025X075 CAPACITOR, American symbol                                                  
+C2       100n         C-US050-025X075   C050-025X075 CAPACITOR, American symbol                                                  
+CHARGING              LED5MM            LED5MM       LED                                                                         
+D1       1N4148DO35-7 1N4148DO35-7      DO35-7       DIODE                                                                       
+IC1      LM324N       LM324N            DIL14        OP AMP                                                                      
+J1       J10MM        J10MM             10           Bridge                                                                      
+J2       J10MM        J10MM             10           Bridge                                                                      
+J3       J10MM        J10MM             10           Bridge                                                                      
+ON                    LED5MM            LED5MM       LED                                                                         
+Q1       TIP122       TIP122            TO220V       NPN Darlington Transistor                                                   
+Q2       TIP122       TIP122            TO220V       NPN Darlington Transistor                                                   
+R1       4k7          R-US_0207/7       0207/7       RESISTOR, American symbol                                                   
+R2       2k7          R-US_0207/7       0207/7       RESISTOR, American symbol                                                   
+R3       10k          R-US_0207/7       0207/7       RESISTOR, American symbol                                                   
+R4       4k7          R-US_0207/7       0207/7       RESISTOR, American symbol                                                   
+R5       1R           R-US_0922/22      0922/22      RESISTOR, American symbol                                                   
+R6       10k          R-US_0207/7       0207/7       RESISTOR, American symbol                                                   
+R7       1k           R-US_0207/7       0207/7       RESISTOR, American symbol                                                   
+R8       10k          R-US_0207/7       0207/7       RESISTOR, American symbol                                                   
+R9       470k         R-US_0207/7       0207/7       RESISTOR, American symbol                                                   
+R10      10k          R-US_0207/7       0207/7       RESISTOR, American symbol                                                   
+R11      1k2          R-US_0207/7       0207/7       RESISTOR, American symbol                                                   
+R12      100k         US-EVUF3M         EVUFXM       9 mm Square Rotary Potentiometers                                           
+R13      560R         R-US_0207/7       0207/7       RESISTOR, American symbol                                                   
+R14      560R         R-US_0207/7       0207/7       RESISTOR, American symbol                                                   
+R15      100k         R-US_0207/7       0207/7       RESISTOR, American symbol                                                   
+R16      1M           R-US_0207/7       0207/7       RESISTOR, American symbol                                                   
+R17      1k5          R-US_0207/7       0207/7       RESISTOR, American symbol                                                   
+TP1      TPPAD1-13    TPPAD1-13         P1-13        Test pad                                                                    
+TP2      TPPAD1-13    TPPAD1-13         P1-13        Test pad                                                                    
+X1                    733980-62         733980-62    FEMALE PRINT CONNECTOR                                                      
+Z1       4.7v         ZENER-DIODEDO34-7 DO34Z7       Z-Diode                                                                     
