@@ -5953,7 +5953,7 @@ grid 5.08 mm, diameter 13 mm</description>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device="">
 <attribute name="CNAME" value="IoT Lab Module"/>
-<attribute name="CREVISION" value="1"/>
+<attribute name="CREVISION" value="2"/>
 <attribute name="DESIGNER" value="Vagovszky M."/>
 </part>
 <part name="IC1" library="ESP12E_DEVKIT" deviceset="ESP12E_DEVKIT" device=""/>
@@ -5979,7 +5979,6 @@ grid 5.08 mm, diameter 13 mm</description>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="IC3" library="level_shifter" deviceset="LEVEL_SHIFTER" device=""/>
 <part name="S2" library="switch-tact" deviceset="DTS-6" device=""/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R1206" value="470"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="IC4" library="level_shifter" deviceset="LEVEL_SHIFTER" device=""/>
 <part name="SUPPLY2" library="parts" deviceset="VIN" device=""/>
@@ -6125,7 +6124,6 @@ grid 5.08 mm, diameter 13 mm</description>
 <instance part="GND12" gate="1" x="73.66" y="50.8"/>
 <instance part="IC3" gate="G$1" x="124.46" y="91.44" rot="R180"/>
 <instance part="S2" gate="G$1" x="58.42" y="111.76" rot="R270"/>
-<instance part="R5" gate="G$1" x="73.66" y="111.76"/>
 <instance part="GND13" gate="1" x="25.4" y="132.08"/>
 <instance part="IC4" gate="G$1" x="124.46" y="55.88" rot="R180"/>
 <instance part="SUPPLY2" gate="G$1" x="38.1" y="165.1"/>
@@ -6370,18 +6368,6 @@ grid 5.08 mm, diameter 13 mm</description>
 <wire x1="114.3" y1="165.1" x2="114.3" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="S2" gate="G$1" pin="3"/>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="111.76" x2="66.04" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="S2" gate="G$1" pin="4"/>
-<wire x1="66.04" y1="111.76" x2="68.58" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="109.22" x2="66.04" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="109.22" x2="66.04" y2="111.76" width="0.1524" layer="91"/>
-<junction x="66.04" y="111.76"/>
-</segment>
-</net>
 <net name="3.3V" class="0">
 <segment>
 <pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
@@ -6447,11 +6433,16 @@ grid 5.08 mm, diameter 13 mm</description>
 <label x="17.78" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="78.74" y1="111.76" x2="88.9" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="111.76" x2="88.9" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="99.06" x2="91.44" y2="96.52" width="0.1524" layer="91"/>
 <label x="86.36" y="99.06" size="1.778" layer="95"/>
+<pinref part="S2" gate="G$1" pin="3"/>
+<wire x1="63.5" y1="111.76" x2="66.04" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="S2" gate="G$1" pin="4"/>
+<wire x1="63.5" y1="109.22" x2="66.04" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="109.22" x2="66.04" y2="111.76" width="0.1524" layer="91"/>
+<junction x="66.04" y="111.76"/>
+<wire x1="88.9" y1="111.76" x2="66.04" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="PL1" gate="G$1" pin="11"/>

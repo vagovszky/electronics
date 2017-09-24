@@ -11,7 +11,7 @@ RTC clock shield for Arduino - DS1307
 2x DC motor driver/controller - L298
 
 ## LCD_I2C_shield
-Shield for connecting arduino to I2C LCD controller  
+Shield for connecting arduino to I2C LCD controller
 
 ## MotorConnect
 Shield for connecting arduino to L298 motor driver
@@ -36,3 +36,6 @@ Li-ion battery charger with OP Ampfs
 
 ## IoT_Module
 IoT module with ESP8266
+
+## Door_Sensor
+Sensor of open door with ESP8266
